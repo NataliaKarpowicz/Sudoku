@@ -1,6 +1,6 @@
 # Sudoku
 
-This is a sudoku game for phones with android system. 
+This is a sudoku game for phones with system android. 
 
 ## Author
 
