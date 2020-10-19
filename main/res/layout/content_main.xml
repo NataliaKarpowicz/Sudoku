@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.120000005">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_0_0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:text=""
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_0_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_0_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:text=""
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_1_0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_1_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_1_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_2_0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_2_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_2_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:editable="false"
+                        android:gravity="center"
+                        android:text="6"
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <ImageView
+                android:id="@+id/kreska_1"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:color/background_dark" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/textView_0_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_0_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_0_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/textView_1_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_1_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_1_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textSize="36dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView_2_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_2_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_2_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <ImageView
+                android:id="@+id/kreska_2"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:color/background_dark" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/textView_0_6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_0_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_0_8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/textView_1_6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_1_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="9"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_1_8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <EditText
+                        android:id="@+id/textView_2_6"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_2_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_2_8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/kreska_3"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            app:srcCompat="@android:color/background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_3_0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:inputType="number"
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_3_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="9"
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_3_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="7"
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView_4_0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_4_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_4_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_5_0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_5_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_5_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:text=""
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <ImageView
+                android:id="@+id/kreska_6"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:color/background_dark" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_3_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:text=""
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_3_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_3_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView_4_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="9"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_4_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_4_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textSize="36dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_5_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_5_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_5_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <ImageView
+                android:id="@+id/kreska_7"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:color/background_dark" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_3_6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_3_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_3_8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_4_6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_4_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_4_8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="2"
+                        android:textSize="36dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView_5_6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="9"
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_5_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_5_8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/kreska_4"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            app:srcCompat="@android:color/background_dark" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_6_0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_6_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="7"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_6_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_7_0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_7_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_7_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:inputType="number"
+                        android:text=""
+                        android:textSize="36dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_8_0"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:inputType="number"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_8_1"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_8_2"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <ImageView
+                android:id="@+id/kreska_8"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:color/background_dark" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_6_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_6_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_6_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="5"
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView_7_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="7"
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_7_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:text="1"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_7_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_8_3"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_8_4"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_8_5"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+            <ImageView
+                android:id="@+id/kreska_9"
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@android:color/background_dark" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView_6_6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="8"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_6_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_6_8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="3"
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_7_6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_7_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_7_8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView_8_6"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                    <TextView
+                        android:id="@+id/textView_8_7"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:text="4"
+                        android:textSize="36dp" />
+
+                    <EditText
+                        android:id="@+id/textView_8_8"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border"
+                        android:gravity="center"
+                        android:inputType="number"
+                        android:digits="123456789"
+                        android:maxLength="1"
+                        android:text=""
+                        android:textSize="36dp" />
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="@+id/linearLayout"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+        <Button
+            android:id="@+id/buttonSprawdz"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Sprawdz" />
+
+        <Button
+            android:id="@+id/buttonWyczysc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Wyczysc" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
